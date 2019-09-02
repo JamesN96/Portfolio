@@ -36,27 +36,60 @@ nav {
 }
 
 /* About css */
+
+#left-about {
+    border: 1px solid black;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    padding-left: 20px;
+    height: 100vh;
+
+}
+
 h2 {
+    position: relative;
+    top: 80px;
+    text-align: center;
+
+}
+
+#about-content {
+    position: relative;
+    top: 80px;
+    padding-top: 30px;
+}
+
+.contact-heading {
+    position: relative;
+    top: 400px;
+    display: inline;
+}
+
+h4 {
+    position: relative;
+    top: 400px;
     text-align: center;
 }
 
-#who {
-    margin-left: 30px;
-    padding-bottom: 100p
+span {
+    position: relative;
+    top: 400px;
 }
-
-#who-content {
+#right-about {
+    float: left;
+    border: 1px solid black;
     width: 50%;
-    margin-left: 30px;
+    overflow: hidden;
+    height: 100vh;
+
 }
 
 #profile-img {
-    position: relative;
-    left: 100px;
+    display: block;
+    margin: 0 auto;
 }
-h5 {
-    display: inline;
-}
+
 
 /* contact css */
 
