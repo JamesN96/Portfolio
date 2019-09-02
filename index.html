@@ -11,19 +11,22 @@
 <body>
 
     <div id="main">
-        <h1>James Nguyen</h1>
-        <img src="" alt="Profile picture of me!">
-        <p>Hi, I'm a full stack web developer. Welcome to my portfolio!</p>
+        <div id="main-content">
+                <h1>James Nguyen</h1>
+                <p id="main-p">Hi, I'm a full stack web developer. Welcome to my portfolio!</p>
+                <button type="button" class="btn btn-outline-dark">Click to view my work</button>
+        </div>
+        
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed">
             
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
           
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav navbar-center">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">ABOUT</a>
                 </li>
@@ -48,7 +51,19 @@
     <!-- About Me Section -->
     <div id="about">
         <h2>ABOUT ME</h2>
+        <span id="who">
+            Who am I?
+        </span>
+
+        <br>
+        <br>
+
+        <p id="who-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo placeat dolore itaque, repellat quas, nihil vitae ipsam eum pariatur recusandae quisquam! Voluptas, rerum, nesciunt esse voluptates ipsam perferendis dolorem laudantium saepe labore sed quidem rem consequatur beatae alias et eligendi officiis quia excepturi eaque, omnis quod dolor. Itaque, eveniet hic.</p>
+        
+        <img id="profile-img" src="img/profile.png" alt="Profile picture of me!">
+       
         <h5>Phone Number: </h5> <span>0401 861 380 </span>
+        <br>
         <h5>Email Address:</h5> <span>james.nguyenn96@gmail.com </span> 
 
     </div>
@@ -57,20 +72,33 @@
 
     <!-- Project Section -->
     <div id="projects">
+
+        <h2>PROJECTS</h2>
         <p>Have a look at my projects below!</p>
 
     </div>
-
+<br>
     <!-- Blog Section -->
 
     <div id="blog">
-
+        <h2>BLOG</h2>
 
     </div>
-
+    <br>
     <!-- Contact me Section -->
     <div id="contact">
+        <h2>CONTACT ME</h2>
 
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name"> 
+
+            <label for="email">Enter Email</label> 
+            <input type="text" id="email">
+
+            <label for="message">Your message</label>
+            <input type="text" id="message">
+        </form>
     </div>
 </body>
 </html>

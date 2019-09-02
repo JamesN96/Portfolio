@@ -1,4 +1,78 @@
+body, html {
+    height: 100%;
+}
+/* Main */
 #main {
+    background-image: url("img/img3.jpg");
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    margin: 20px auto;
+    height: 100%;
+}
+
+#main-content {
+    position: relative;
+    top: 270px;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+#profile-img {
+    border-radius: 50%;
+    height: 250px;
+    position: relative;
+    top: 50px;
+}
+
+/* Nav css */
+nav {
+    height: 70px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/* About css */
+h2 {
+    text-align: center;
+}
+
+#who {
+    margin-left: 30px;
+    padding-bottom: 100p
+}
+
+#who-content {
+    width: 50%;
+    margin-left: 30px;
+}
+
+#profile-img {
+    position: relative;
+    left: 100px;
+}
+h5 {
+    display: inline;
+}
+
+/* contact css */
+
+form {
+    background: gray;
+    width: 50%;
+    position: relative; 
+    left: 350px;
+
+}
+label {
+    margin: auto;
+}
+input {
+    display: block;
+    position: relative;
+    margin: auto;
+    
 }
