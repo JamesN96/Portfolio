@@ -47,7 +47,7 @@ nav {
 
 }
 
-h2 {
+h2, #project-p {
     position: relative;
     top: 80px;
     text-align: center;
@@ -90,7 +90,12 @@ span {
     margin: 0 auto;
 }
 
-
+/* project css */
+#projects {
+    border: 1px blue solid;
+    height: 100vh;
+    clear: both;
+}
 /* contact css */
 
 form {
