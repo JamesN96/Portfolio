@@ -124,8 +124,12 @@ span {
 /* contact css */
 
 #contact {
+    background-image: url("img/contact-bg2.jpg");
+    background-size: cover;
+    background-position: center;
     border: 1px solid red;
     height: 100vh;
+
 
 }
 
@@ -136,7 +140,6 @@ span {
 }
 
 #contact-form {
-    background: gray;
     width: 50%;
     position: relative; 
     left: 25%;
@@ -153,7 +156,7 @@ input, textarea {
     width: 60%;
 }
 
-.btn.btn-outline-dark {
+#form-btn {
     position: relative;
     left: 500px;
 }
