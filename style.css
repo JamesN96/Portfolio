@@ -129,6 +129,12 @@ span {
 
 }
 
+#contact-p {
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+
 #contact-form {
     background: gray;
     width: 50%;
@@ -145,4 +151,9 @@ input, textarea {
     left: 144px;
     padding: 12px;
     width: 60%;
+}
+
+.btn.btn-outline-dark {
+    position: relative;
+    left: 500px;
 }
