@@ -54,47 +54,56 @@ nav {
 
 }
 
-h2, #project-p {
-    position: relative;
-    top: 80px;
-    text-align: center;
-
-}
-
 #about-content {
     position: relative;
     top: 80px;
     padding-top: 30px;
+    margin-right: 30px;
 }
 
-.contact-heading {
-    position: relative;
-    top: 400px;
-    display: inline;
-}
-
-h4 {
-    position: relative;
-    top: 400px;
-    text-align: center;
-}
-
-span {
-    position: relative;
-    top: 400px;
-}
 #right-about {
     float: left;
     border: 1px solid black;
     width: 50%;
     overflow: hidden;
     height: 100vh;
-
 }
+
 
 #profile-img {
     display: block;
     margin: 0 auto;
+}
+
+.contact-heading {
+    position: relative;
+    top: 100px;
+    left: 28%;
+    display: inline;
+}
+
+h4 {
+    position: relative;
+    top: 110px;
+    text-align: center;
+}
+
+span {
+    position: relative;
+    top: 100px;
+    left: 29%;
+}
+
+#social {
+    position: relative;
+    top: 200px;
+}
+
+#icons {
+    position: relative;
+    top: 200px;
+    left: 30%;
+    
 }
 
 /* project css */
@@ -106,6 +115,13 @@ span {
     clear: both;
     height: 100vh;
     margin-bottom: -24px;
+}
+
+h2, #project-p {
+    position: relative;
+    top: 80px;
+    text-align: center;
+
 }
 
 #project-main {
