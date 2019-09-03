@@ -123,6 +123,13 @@ span {
     transform: scale(1.2);
 }
 
+#btn-project {
+    position: relative;
+   
+    display: block;
+    margin: 200px auto 0 auto;
+}
+
 
 /* blog css */
 #blog {
