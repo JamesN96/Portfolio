@@ -98,6 +98,8 @@ span {
 
 /* project css */
 #projects {
+    background-image: url("img/project-bg2.jpg");
+    background-size: cover;
     border: 1px blue solid;
     height: 100vh;
     clear: both;
