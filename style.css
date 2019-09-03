@@ -125,7 +125,6 @@ span {
 
 #btn-project {
     position: relative;
-   
     display: block;
     margin: 200px auto 0 auto;
 }
@@ -155,7 +154,10 @@ span {
     height: 33%;
 }
 
-
+#btn-blog {
+    display: block;
+    margin: 40px 0 0 1050px;
+}
 /* contact css */
 
 #contact {
