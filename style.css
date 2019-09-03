@@ -29,7 +29,9 @@ body, html {
 nav {
     height: 70px;
     margin-bottom: -22px;
+    border-bottom: 3px solid orange;
 }
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
