@@ -39,9 +39,8 @@ nav {
 /* About css */
 
 
-#left-about, #right-about {
-    background:#f5f5f5;
-}
+/* #left-about, #right-about {
+} */
 
 #left-about {
     border: 1px solid black;
@@ -98,8 +97,9 @@ span {
 
 /* project css */
 #projects {
-    background-image: url("img/project-bg2.jpg");
-    background-size: cover;
+    /* background-image: url("img/project-bg2.jpg");
+    background-size: cover; */
+    background: #f5f5f5;
     border: 1px blue solid;
     clear: both;
     height: 100vh;
@@ -132,7 +132,7 @@ span {
 
 /* blog css */
 #blog {
-    background:#f5f5f5;
+    /* background:#f5f5f5; */
     border: 1px solid green;
     height: 100vh;
     margin-bottom: -24px;
