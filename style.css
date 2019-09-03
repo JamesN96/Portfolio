@@ -130,8 +130,25 @@ span {
     border: 1px solid green;
     height: 100vh;
     margin-bottom: -24px;
-
 }
+
+#blog-head {
+    position: relative;
+    top: 35px;
+}
+
+#card-container {
+    height: 75%;
+}
+
+.card.mb-3 {
+    position: relative;
+    margin: 0 auto;
+    top: 10%;
+    height: 33%;
+}
+
+
 /* contact css */
 
 #contact {
