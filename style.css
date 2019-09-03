@@ -30,6 +30,8 @@ nav {
     height: 70px;
     margin-bottom: -22px;
     border-bottom: 3px solid orange;
+    position: sticky;
+    top: 0px;
 }
 
 .navbar-nav.navbar-center {
@@ -154,6 +156,7 @@ h2, #project-p {
     border: 1px solid green;
     height: 100vh;
     margin-bottom: -24px;
+    padding-top: 40px;
 }
 
 #blog-head {
