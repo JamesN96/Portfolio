@@ -40,7 +40,7 @@ nav {
 
 
 #left-about, #right-about {
-    background:#f5f5f5;;
+    background:#f5f5f5;
 }
 
 #left-about {
@@ -101,9 +101,9 @@ span {
     background-image: url("img/project-bg2.jpg");
     background-size: cover;
     border: 1px blue solid;
-    height: 100vh;
     clear: both;
-
+    height: 100vh;
+    margin-bottom: -24px;
 }
 
 #project-main {
@@ -126,8 +126,11 @@ span {
 
 /* blog css */
 #blog {
+    background:#f5f5f5;
     border: 1px solid green;
     height: 100vh;
+    margin-bottom: -24px;
+
 }
 /* contact css */
 
